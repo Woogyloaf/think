@@ -114,11 +114,11 @@
         <div class="header-top">
           <nav id="top">
             <div class="container">
-                <div class="contact pull-left">
+                <div class="col-xs-12 col-sm-12 col-lg-5">
                   <span class="phone"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> (FR) +33 623 473 571 </span>
                   <span class="whatapp"><span class="text-theme">WhatsApp</span> +33 623 473 571</span>
                 </div> 
-                <div id="top-links" class="pull-right">
+                <div id="top-links" class="col-xs-12 col-sm-12 col-lg-7 pull-right">
                 <ul class="list-inline mark-pont">
 
                 <?php if (!$logged) { ?>
@@ -171,7 +171,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-xs-12 col-sm-12 col-lg-3">
           <div id="logo">
             <?php if ($logo) { ?>
             <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
@@ -180,8 +180,8 @@
             <?php } ?>
           </div>
         </div>
-        <div class="col-sm-6 col-xs-12"><?php echo $search; ?></div>
-        <div class="col-sm-3 col-xs-12 padding-top-15"><?php echo $cart; ?></div>
+        <div class="col-xs-12 col-sm-8 col-lg-6"><?php echo $search; ?></div>
+        <div class="col-xs-12 col-sm-4 col-lg-3 padding-top-15"><?php echo $cart; ?></div>
       </div>
     </div>
   </header>
